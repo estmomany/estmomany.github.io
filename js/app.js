@@ -1,0 +1,1 @@
+//document.querySelectorAll(".nav li").forEach(el => el.style.color = "red"); 

@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+#title {
+    color: black;
+    font-size: 3rem;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 400;
+
+
+}
+
+#mainNavbar .nav-link {
+    color: black;
+
+}
+
+
+#mainNavbar .nav-link:hover {
+    color: #6198da;
+}
+
+.navbar.scrolled {
+    background: yellow;
+    transition: background 500ms;
+}
+
+#mail {
+    padding-bottom: 3rem;
+    margin: 1rem;
+
+}
+
+#spaced-center {
+
+    padding: 5rem;
+    margin: 1rem;
+}
+
+footer {
+    color: white;
+    background-color: #6198da;
+    font-weight: 300;
+}
+
+@media (max-width: 1265px) {
+    #headingGroup h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+    #title {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    #headingGroup h1 {
+        font-weight: 400;
+        font-size: 2rem;
+
+    }
+
+    #title {
+        font-size: 2rem;
+    }
+
+    #mail {
+        font-size: 2rem;
+    }
+
+}
