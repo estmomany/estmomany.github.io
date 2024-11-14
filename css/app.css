@@ -1,14 +1,3 @@
-body {
-    background-color: white;
-    font-family: "IBM Plex Sans", sans-serif;
-
-}
-
-#info {
-    font-style: italic;
-    font-weight: bold;
-}
-
 #light .carousel-indicators li {
     background-color: #333;
     /* Dark color for inactive indicators */
@@ -22,6 +11,19 @@ body {
     opacity: 1;
     /* Fully opaque to highlight the active slide */
 }
+
+
+body {
+    background-color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+#info {
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 #title {
     color: black;
