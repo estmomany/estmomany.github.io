@@ -46,8 +46,16 @@ body {
 
 footer {
     color: white;
-    background-color: #6198da;
+
     font-weight: 300;
+}
+
+#blue {
+    background-color: #6198da;
+}
+
+.sectionone {
+    color: white;
 }
 
 @media (max-width: 1265px) {
