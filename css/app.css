@@ -4,6 +4,25 @@ body {
 
 }
 
+#info {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#light .carousel-indicators li {
+    background-color: #333;
+    /* Dark color for inactive indicators */
+    opacity: 0.7;
+    /* Slightly transparent for better aesthetics */
+}
+
+#light .carousel-indicators .active {
+    background-color: #000;
+    /* Darker color for the active indicator */
+    opacity: 1;
+    /* Fully opaque to highlight the active slide */
+}
+
 #title {
     color: black;
     font-size: 3rem;
