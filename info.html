@@ -15,6 +15,84 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/app.css">
     <title>Esther Momanyi</title>
+    <style>
+        /* General Styles for Both Modes */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(100%);
+            /* Makes the icons white for dark mode */
+        }
+
+        /* Indicator styles */
+        .carousel-indicators li {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent background for text */
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Dark Mode Specific Styles */
+        @media (prefers-color-scheme: dark) {
+            .carousel-caption {
+                background-color: rgba(255, 255, 255, 0.5);
+                color: #000000;
+            }
+
+            .carousel-indicators li {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                filter: invert(0%);
+                /* Makes the icons black for light mode */
+            }
+        }
+    </style>
+    <style>
+        /* General Styles for Both Modes */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(100%);
+            /* Makes the icons white for dark mode */
+        }
+
+        /* Indicator styles */
+        .carousel-indicators li {
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent background for text */
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Dark Mode Specific Styles */
+        @media (prefers-color-scheme: dark) {
+            .carousel-caption {
+                background-color: rgba(255, 255, 255, 0.5);
+                color: #000000;
+            }
+
+            .carousel-indicators li {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .carousel-control-prev-icon,
+            .carousel-control-next-icon {
+                filter: invert(0%);
+                /* Makes the icons black for light mode */
+            }
+        }
+    </style>
 </head>
 <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
     <a href="#" id="title" class="navbar-brand">EM</a>
